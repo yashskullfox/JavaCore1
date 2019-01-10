@@ -26,5 +26,9 @@ public static void main (String [] args){
    System.out.println("Customer Name     " 	+ customer1.customerName); 
    System.out.println("Customer Address  " 	+ customer1.address); 
    System.out.println("Customer Pin Code " 	+ customer1.pinCode);
+   System.out.println("Customer ID       " 	+ customer1.customerID); 
+   System.out.println("Customer Name     " 	+ customer1.customerName); 
+   System.out.println("Customer Address  " 	+ customer1.address); 
+   System.out.println("Customer Pin Code " 	+ customer1.pinCode);
    } 
 }
