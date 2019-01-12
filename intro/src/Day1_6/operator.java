@@ -1,4 +1,4 @@
-
+package Day1_6;
 public class operator {
 	public static void main(String[] args){
         int intVal=10;

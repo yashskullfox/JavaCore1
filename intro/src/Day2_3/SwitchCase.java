@@ -1,4 +1,4 @@
-
+package Day2_3;
 public class SwitchCase {
 	public static void main( String args[]){
 	char value = 'D';

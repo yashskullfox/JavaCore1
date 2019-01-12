@@ -1,4 +1,4 @@
-package Day4_1;
+package Day4_1_2;
 
 public class student {
 	private static int studentId;
@@ -6,12 +6,7 @@ public class student {
 	private static  String studentName;
 	private static double feesPerMonth;
 
-public void student()
-{
-	feesPerMonth = 1000;
-	System.out.println("Fees per month is:" + feesPerMonth);
-	
-}
+
 public student(int id, char type, String firstName, String lastName)
 	{
 		this.setStudentId(id);
@@ -43,4 +38,17 @@ public static double getFeesPerMonth() {
 	return feesPerMonth;
 }
 
+
+public void student()
+{
+	feesPerMonth = 1000;
+	if(studentType == 'd' )
+	{
+	System.out.println("Fees per month is:" + feesPerMonth);
+	}
+	else
+	{
+		System.out.println("Fees per month is: Hostelfees+Schoolfees" );
+	}
+}
 }

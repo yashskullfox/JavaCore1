@@ -1,3 +1,4 @@
+package Day2_7;
 public class passByVal {
      public static void main (String args[]){
             int sId = 25;

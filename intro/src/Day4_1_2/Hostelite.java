@@ -1,7 +1,7 @@
-package Day4_1;
+package Day4_1_2;
 
 public class Hostelite extends student {
-public Hostelite(int id,char studentType,String firstName , String lastName,double fes,int romNo)
+protected Hostelite(int id,char studentType,String firstName , String lastName,double fes,int romNo)
  {
 		super(1,'d', "abc", "xyz");
 		System.out.println("ID    " +id);
@@ -27,6 +27,7 @@ public static void main(String args[])
 	System.out.println(student.getStudentName());
 	student1.student();
 	Hostelite student2 = new Hostelite(102,'h', "bbc","king",1002d,102);
+	student2.student();
 	
 }
 }

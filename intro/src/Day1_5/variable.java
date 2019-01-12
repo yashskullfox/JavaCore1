@@ -1,3 +1,5 @@
+package Day1_5;
+
 class Variable {
      public static void main (String args[]){
      int intVal = 10;

@@ -1,3 +1,5 @@
+
+package Day2_2;
 class Controls{
      public static void main(String args[]){
 

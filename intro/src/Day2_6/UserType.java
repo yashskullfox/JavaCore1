@@ -1,4 +1,4 @@
-
+package Day2_6;
 public class UserType {
 String name;
 
