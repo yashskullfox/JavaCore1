@@ -1,24 +1,23 @@
 package Day4_1_2_3;
 
-class DayScholar {
+class DayScholar extends student {
 
 private static String residentialAddress;
 
-public DayScholar(int id,char type,String name ,double fees, String resAddress)
+public DayScholar(int id,char studentType,String firstName , String lastName,double fees, String resAddress)
 {
-this.setResidentialAddress(resAddress);
-System.out.println("ID:  " +id);
-System.out.println("Type:" +type);
-System.out.println("Name:" +name);
-System.out.println("Fees:" +fees);
+	super(id,studentType,firstName,lastName);
+	residentialAddress=resAddress;
+    this.getResidentialAddress();
+    displayDetails(); 
 }
 
 public static String getResidentialAddress() {
 	return residentialAddress;
 }
 
-public void setResidentialAddress(String residentialAddress) {
-	this.residentialAddress = residentialAddress;
+public void displayDetails()
+{
+	System.out.println(this.getResidentialAddress());
 }
-
 }

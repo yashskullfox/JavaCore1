@@ -1,6 +1,6 @@
 package Day4_1_2_3;
 
-public class student  {
+public class student{
 	private static int studentId;
 	private static char studentType;
 	private static  String studentName;
@@ -12,6 +12,7 @@ public student(int id, char type, String firstName, String lastName)
 		this.setStudentId(id);
 		this.setStudentType(type);
 		this.setStudentName(firstName,lastName);
+		displayDetails();
 	}
 public void setStudentId(int studentId) {
 	this.studentId = studentId;
@@ -50,5 +51,12 @@ public void student()
 	{
 		System.out.println("Fees per month is: Hostelfees+Schoolfees" );
 	}
+}
+public void displayDetails()
+{
+	System.out.println(student.getStudentId());
+	System.out.println(student.getStudentType());
+	System.out.println(student.getStudentName());
+	System.out.println(student.getFeesPerMonth());
 }
 }

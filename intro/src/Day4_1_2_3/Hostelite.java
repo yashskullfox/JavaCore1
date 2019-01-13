@@ -1,34 +1,33 @@
 package Day4_1_2_3;
 
 public class Hostelite extends student {
-protected Hostelite(int id,char studentType,String firstName , String lastName,double fes,int romNo)
+	private String hostelName;
+	private int roomNo;
+
+public Hostelite(int id,char studentType,String firstName , String lastName,double fes,String hostName, int romNo)
  {
-		super(1,'d', "abc", "xyz");
-		System.out.println("ID    " +id);
-		System.out.println("Type  " +studentType);
-		System.out.println("FristName  " +firstName);
-		System.out.println("LastName  " +lastName);
-		System.out.println("Fees  " +fes);
-		System.out.println("RoomNo  " +romNo);
+		super(id,studentType,firstName,lastName);
+		this.hostelName=hostName;
+		roomNo=romNo;
+		displayDetails();
 }
-private String hostelName;
-private int roomNo;
 
 /*Hostelite()
 {
 	
 } */
 
+public void displayDetails()
+{
+	super.displayDetails();
+	System.out.println(" Hostel Name" + this.hostelName);
+	System.out.println("Room No:" +roomNo);
+}
+
 public static void main(String args[])
 {
-	student student1 = new student (1,'h', "abc", "xyz");
-	System.out.println(student.getStudentId());
-	System.out.println(student.getStudentType());
-	System.out.println(student.getStudentName());
-	student1.student();
-	Hostelite student2 = new Hostelite(102,'h', "bbc","king",1002d,102);
-	student2.student();
-	DayScholar student3 = new DayScholar(102,'d',"bob",1000d,"Hostal A");
-		
+	Hostelite student2 = new Hostelite(102,'h', "bbc","king",1002d,"Hostal A",102);
+	DayScholar student3 = new DayScholar(102,'d',"bob","martin",1000d,"Hostal b");
+	
 }
 }
