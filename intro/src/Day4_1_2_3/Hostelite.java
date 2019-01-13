@@ -1,4 +1,4 @@
-package Day4_1_2;
+package Day4_1_2_3;
 
 public class Hostelite extends student {
 protected Hostelite(int id,char studentType,String firstName , String lastName,double fes,int romNo)
@@ -10,7 +10,7 @@ protected Hostelite(int id,char studentType,String firstName , String lastName,d
 		System.out.println("LastName  " +lastName);
 		System.out.println("Fees  " +fes);
 		System.out.println("RoomNo  " +romNo);
-	}
+}
 private String hostelName;
 private int roomNo;
 
@@ -21,13 +21,14 @@ private int roomNo;
 
 public static void main(String args[])
 {
-	student student1 = new student (1,'d', "abc", "xyz");
+	student student1 = new student (1,'h', "abc", "xyz");
 	System.out.println(student.getStudentId());
 	System.out.println(student.getStudentType());
 	System.out.println(student.getStudentName());
 	student1.student();
 	Hostelite student2 = new Hostelite(102,'h', "bbc","king",1002d,102);
 	student2.student();
-	
+	DayScholar student3 = new DayScholar(102,'d',"bob",1000d,"Hostal A");
+		
 }
 }

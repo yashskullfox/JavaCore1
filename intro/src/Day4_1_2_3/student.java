@@ -1,6 +1,6 @@
-package Day4_1_2;
+package Day4_1_2_3;
 
-public class student {
+public class student  {
 	private static int studentId;
 	private static char studentType;
 	private static  String studentName;
