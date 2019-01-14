@@ -14,7 +14,8 @@ String studnetName = "test";
 }
 student1(char sType, String sName, String sType1)
 {
-	studentID = sID; sID++;
+	
+	studentID = sID++; 
 	studentType = sType1;
 	studentName = sName+sType1;
 }
