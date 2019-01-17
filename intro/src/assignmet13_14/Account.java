@@ -37,7 +37,6 @@ public static void main(String args[]){
     customerCA.overDraft(1000.0);
     System.out.println("Checking of " +customer2.cusName + "  Current Balance "+ customerCA.EnquiryBalance());
     customerCA.overDraft(4000.0);
-    System.out.println("Checking of " +customer2.cusName + "  Current Balance "+ customerCA.EnquiryBalance());
-    customerCA.overDraft(3000.0);
+  
 }
 }
