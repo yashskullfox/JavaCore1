@@ -1,10 +1,10 @@
-package intro;
+package Day3_7;
 
-public class student {
+public class Student {
 	private int studentID;
 	private char studentType;
 	static int studentCount = 10;
-	student()
+	Student()
 	{
 		studentID=10; 
 		studentType='F';
