@@ -1,4 +1,4 @@
-package assignment5;
+package assignment5_6;
 
 public class nonSalary extends Salary {
 

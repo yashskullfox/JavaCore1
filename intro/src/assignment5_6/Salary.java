@@ -1,4 +1,4 @@
-package assignment5;
+package assignment5_6;
 
 public class Salary {
 		 private String fName;
@@ -26,10 +26,20 @@ public class Salary {
 		DOB = db; gender = g;
 		mStatus = status;
 	}
+	public void display()
+	{
+		System.out.println("First Name: "+fName);
+		System.out.println("Last Name: "+lName);
+		System.out.println("Email ID: " +emailID);
+		System.out.println("A/C Type: "+acType);
+		System.out.println("Gender "+gender);
+		System.out.println("Maritial Status "+mStatus);
+	}
 	public static void main (String[] args)
 	{
-		Salary sal1 = new Salary("xyz","xyz","x@g.c","salary","01/10/19",'m',"married");
+		Salary sal1 = new Salary("Paul","Anderson","Paul@Wellsfargo.com","salary","01/03/1985",'M',"Single");
 		System.out.println("Salary 1");
+		sal1.display();
 		nonSalary non1 = new nonSalary();
 		System.out.println("Non Salary 1");
 		
