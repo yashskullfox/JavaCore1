@@ -19,6 +19,7 @@ int getVariable1(){
 	return variable1;
 }
 
-public int getVariable2(){ return variable2;
+public int getVariable2(){ 
+return variable2;
 }
 }
