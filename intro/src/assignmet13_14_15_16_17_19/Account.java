@@ -1,6 +1,6 @@
 package assignmet13_14_15_16_17_19;
 
-public class Account {
+abstract class Account {
 int accNo;
 double Balance;
 Customer customer;
