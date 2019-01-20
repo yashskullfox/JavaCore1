@@ -5,9 +5,9 @@ public class student1
 private int studentID;
 private int sID = 545;
 private String studentName;
-private String firstName;
-private String lastName;
-private String studentType;
+//private String firstName;
+//private String lastName;
+//private String studentType;
 
 /*student1()
 {

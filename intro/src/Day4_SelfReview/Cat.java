@@ -10,9 +10,9 @@ package Day4_SelfReview;
 		}
 		public static void main(String[] args) {
 		Cat myCat = new Cat();
-		Animal myAnimal = myCat;
-		Animal.testClassMethod();
-		myAnimal.testInstanceMethod();
+		Animal myAnimal = myCat;  
+		Animal.testClassMethod();  			//call method in super class
+		myAnimal.testInstanceMethod();		//call method in present class
 		}
 		}
 		

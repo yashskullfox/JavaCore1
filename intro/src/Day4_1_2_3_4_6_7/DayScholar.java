@@ -8,7 +8,7 @@ public DayScholar(int id,char studentType,String firstName , String lastName,dou
 {
 	super(id,studentType,firstName,lastName);
 	residentialAddress=resAddress;
-    this.getResidentialAddress();
+    DayScholar.getResidentialAddress();
     displayDetails(); 
 }
 
@@ -18,6 +18,6 @@ public static String getResidentialAddress() {
 
 public void displayDetails()
 {
-	System.out.println(this.getResidentialAddress());
+	System.out.println(DayScholar.getResidentialAddress());
 }
 }

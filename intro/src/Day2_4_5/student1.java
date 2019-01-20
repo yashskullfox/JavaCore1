@@ -11,7 +11,7 @@ student1()
 {
 studentID = sID; sID++;
 studentType = "f";
-String studnetName = "test";
+//String studnetName = "test";
 }
 student1(char sType, String sName, String sType1)
 {
@@ -27,7 +27,7 @@ student1(char sType, String sName, String sType1)
  }
 public static void main(String args[])
 {
-	student1 displayValues = new student1();
+	
 	student1 studentOne = new student1 ('D',"Boney","Thomas");
 	studentOne.displayDetails(studentOne);
 	student1 studentTwo = new student1('H',"Dinial","Bose");

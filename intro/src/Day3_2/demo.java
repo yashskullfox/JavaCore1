@@ -1,5 +1,5 @@
 package Day3_2;
-import java.util.Arrays;
+
 class demo{
 	public static void main(String args[])
     {

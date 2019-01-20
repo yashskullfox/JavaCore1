@@ -1,6 +1,6 @@
 package Day4_SelfReview;
 
-public class Parent {
+class prent {
 	protected int num;
 	public void setNum(int val){
 	num = val;
@@ -13,8 +13,8 @@ public class Parent {
 	}
 	}
 	
-		class CourseMgmt{
-		public static void main(String args[]){
+		public class CourseMgmt{
+public static void main(String args[]){
 		Child child;
 		child = new Child();
 		child.setNum(100);

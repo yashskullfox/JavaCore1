@@ -7,10 +7,11 @@ public class JavaDoc {
     private int length;
     private String upperCase;
     private String lowerCase;
+	private static Scanner scanner;
     public static void main(String[] args) {
         JavaDoc javaDoc = new JavaDoc();
         System.out.println("Enter user name : ");
-        Scanner scanner = new Scanner(System.in);
+        scanner = new Scanner(System.in);
         javaDoc.userName = scanner.next();
         javaDoc.length = javaDoc.userName.length();
         javaDoc.upperCase = javaDoc.userName.toUpperCase();

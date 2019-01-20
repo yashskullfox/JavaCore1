@@ -14,7 +14,7 @@ public class Student {
     }
     public void displayDetails(Student student)
     {
-        System.out.println("Student ID :"+student.studentId+ " Student Type   "+student.studentType);
+        System.out.println("Student ID :"+Student.studentId+ " Student Type   "+student.studentType);
     }
     public static void main(String[] args) {
         Student studentOne = new Student('D');
